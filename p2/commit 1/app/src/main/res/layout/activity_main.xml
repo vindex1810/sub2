@@ -10,12 +10,13 @@
         android:id="@+id/cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
         android:onClick="registrar"
         android:text="Cadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="588dp" />
+        app:layout_constraintTop_toBottomOf="@+id/listagem" />
 
     <TextView
         android:id="@+id/pokedex"
@@ -27,5 +28,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listagem"
+        android:layout_width="200dp"
+        android:layout_height="373dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokedex" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
