@@ -13,7 +13,19 @@
         android:onClick="registrar"
         android:text="Cadastrar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="602dp" />
+        tools:layout_editor_absoluteY="588dp" />
+
+    <TextView
+        android:id="@+id/pokedex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:text="Pokédex"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
